@@ -1,9 +1,9 @@
 {
   "settings": {
-    "name": "မင်္ဂလာစားသောက်ဆိုင်",
-    "tagline": "လတ်ဆတ်ပြီး အရသာရှိတဲ့ အစားအစာများ",
-    "owner": "ဦးမင်းမင်း",
-    "address": "အမှတ် ၁၂၃၊ ဗိုလ်ချုပ်လမ်း၊ ရန်ကုန်မြို့",
+    "name": "ကြေးမုံရတနာ",
+    "tagline": "အရသာရှိသော အလicious ချက်ပြုတ်မှုများ",
+    "owner": "အစ်ကို",
+    "address": "လူအဆင်ပြေ အလယ်ဗဟို",
     "phone": "09-123456789",
     "telegram": "@restaurant_mm",
     "facebook": "facebook.com/restaurant"
@@ -11,118 +11,68 @@
   "menu": {
     "rice-1": {
       "id": "rice-1",
-      "name": "ထမင်းနှင့်ငရုတ်ကောင်း",
+      "name": "ထမင်းမုံရတနာ",
       "price": 1500,
       "category": "rice",
-      "icon": "🍚",
-      "description": "လတ်ဆတ်တဲ့ ထမင်းနဲ့ ငရုတ်ကောင်းချက်"
+      "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=200&fit=crop",
+      "description": "အရသာရှိသော ထမင်းမုံရတနာ"
     },
     "rice-2": {
       "id": "rice-2",
-      "name": "ကြက်သွန်ထမင်း",
+      "name": "အုန်းတွင် ထမင်း",
       "price": 2000,
       "category": "rice",
-      "icon": "🍛",
-      "description": "အရသာရှိတဲ့ ကြက်သွန်ထမင်း"
+      "image": "https://images.unsplash.com/photo-1645112411341-6c4ee32510d8?w=300&h=200&fit=crop",
+      "description": "အရသာမြတ် အုန်းတွင်ထမင်း"
     },
     "curry-1": {
       "id": "curry-1",
-      "name": "အသားဟင်း",
+      "name": "ငါးကယ်ရီ",
       "price": 3000,
       "category": "curry",
-      "icon": "🥩",
-      "description": "အရသာရှိတဲ့ အသားဟင်း"
+      "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e4e31?w=300&h=200&fit=crop",
+      "description": "အရသာရှိသော ငါးကယ်ရီ"
     },
     "curry-2": {
       "id": "curry-2",
-      "name": "ငါးဟင်း",
+      "name": "သုပ်ကယ်ရီ",
       "price": 2500,
       "category": "curry",
-      "icon": "🐟",
-      "description": "လတ်ဆတ်တဲ့ ငါးဟင်း"
+      "image": "https://images.unsplash.com/photo-1565557623262-b51c2e991de0?w=300&h=200&fit=crop",
+      "description": "အရသာရှိသော သုပ်ကယ်ရီ"
     },
     "snacks-1": {
       "id": "snacks-1",
-      "name": "ဆမူဆာ",
+      "name": "အုတ်အုတ်",
       "price": 500,
       "category": "snacks",
-      "icon": "🥟",
-      "description": "ကြွပ်ကြွပ်ဆမူဆာ"
+      "image": "https://images.unsplash.com/photo-1551632786-ad1206995cfd?w=300&h=200&fit=crop",
+      "description": "လက်ကြက်နမ်း အုတ်အုတ်"
     },
     "snacks-2": {
       "id": "snacks-2",
-      "name": "မုန့်ပေါင်း",
+      "name": "မုံရတနာခါ",
       "price": 800,
       "category": "snacks",
-      "icon": "🍞",
-      "description": "နွေးနွေးမုန့်ပေါင်း"
-    },
-    "snacks-3": {
-      "id": "snacks-3",
-      "name": "အကြွပ်အဖြူ",
-      "price": 1000,
-      "category": "snacks",
-      "icon": "🍪",
-      "description": "အရသာရှိတဲ့ အကြွပ်အဖြူ မုန့်"
+      "image": "https://images.unsplash.com/photo-1585238341710-4913d3a3a48f?w=300&h=200&fit=crop",
+      "description": "အင်္ဂလိပ်မုံရတနာခါ"
     }
   },
   "blog": {
-    "posts": [
-      {
-        "id": "blog-1",
-        "title": "ကျွန်တော်တို့ဆိုင် ဖွင့်လှစ်ခြင်း",
-        "date": "2025-01-15",
-        "excerpt": "မင်္ဂလာပါ။ ကျွန်တော်တို့ဆိုင်သစ် ဖွင့်လှစ်ပါတယ်။ လတ်ဆတ်တဲ့ အစားအစာနဲ့ အနုပညာဆန်တဲ့အချိုပွဲတွေပါ!",
-        "icon": "🎉"
-      },
-      {
-        "id": "blog-2",
-        "title": "မီနူးအသစ်များ ထပ်ထည့်ခြင်း",
-        "date": "2025-02-01",
-        "excerpt": "ဒီအပတ်မှာ မီနူးအသစ်များ ထပ်ထည့်ပေးထားပါတယ်။ ကြက်သားဟင်း၊ ငါးဟင်းနဲ့ မုန့်အသစ်များပါဝင်တယ်။",
-        "icon": "🍽️"
-      },
-      {
-        "id": "blog-3",
-        "title": "ဖောက်သည်များအတွက် အထူးလျှော့ဈေး",
-        "date": "2025-03-01",
-        "excerpt": "ပထမဆုံးအကြိမ် မှာယူသူများအတွက် 10% လျှော့စျေးပေးမယ်။ Telegram မှာ Follow လုပ်ပြီးမှာပါ။",
-        "icon": "💰"
-      }
-    ]
-  },
-  "orders": [
-    {
-      "id": "ORD-1001",
-      "telegram": "@customer1",
-      "address": "ဗိုလ်ချုပ်လမ်း၊ ရန်ကုန်မြို့",
-      "time": "12:00 PM - 1:00 PM",
-      "note": "အေးအေးလေးပဲ ပို့ပါ",
-      "items": [
-        { "id": "rice-1", "name": "ထမင်းနှင့်ငရုတ်ကောင်း", "price": 1500, "quantity": 1, "icon": "🍚" },
-        { "id": "curry-1", "name": "အသားဟင်း", "price": 3000, "quantity": 1, "icon": "🥩" }
-      ],
-      "total": 4500,
-      "date": "2025-10-10T12:00:00Z",
-      "status": "completed"
+    "blog-1": {
+      "id": "blog-1",
+      "title": "ကြေးမုံရတနာ ကျောင်းမူလ",
+      "date": "2025-01-15",
+      "excerpt": "ကျွန်ုပ်တို့၏ ကြေးမုံရတနာ ကျောင်းမူလ အကြောင်း...",
+      "image": "https://images.unsplash.com/photo-1495589871917-9686b7c09d6b?w=400&h=200&fit=crop"
     },
-    {
-      "id": "ORD-1002",
-      "telegram": "@customer2",
-      "address": "စံပြလမ်း၊ မန္တလေးမြို့",
-      "time": "1:00 PM - 2:00 PM",
-      "note": "",
-      "items": [
-        { "id": "snacks-1", "name": "ဆမူဆာ", "price": 500, "quantity": 3, "icon": "🥟" },
-        { "id": "snacks-2", "name": "မုန့်ပေါင်း", "price": 800, "quantity": 2, "icon": "🍞" }
-      ],
-      "total": 3100,
-      "date": "2025-10-12T14:30:00Z",
-      "status": "pending"
+    "blog-2": {
+      "id": "blog-2",
+      "title": "အစားအဆောင်များ ကျော်လည်ကဲ့သို့",
+      "date": "2025-01-20",
+      "excerpt": "ကျွန်ုပ်တို့၏ အစားအဆောင်များ ကျော်လည်ကဲ့သို့အကြောင်း...",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=200&fit=crop"
     }
-  ],
-  "health": {
-    "status": "ok",
-    "message": "API is running properly"
-  }
+  },
+  "orders": []
 }
