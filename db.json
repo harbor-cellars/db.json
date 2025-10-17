@@ -1,0 +1,128 @@
+{
+  "settings": {
+    "name": "မင်္ဂလာစားသောက်ဆိုင်",
+    "tagline": "လတ်ဆတ်ပြီး အရသာရှိတဲ့ အစားအစာများ",
+    "owner": "ဦးမင်းမင်း",
+    "address": "အမှတ် ၁၂၃၊ ဗိုလ်ချုပ်လမ်း၊ ရန်ကုန်မြို့",
+    "phone": "09-123456789",
+    "telegram": "@restaurant_mm",
+    "facebook": "facebook.com/restaurant"
+  },
+  "menu": {
+    "rice-1": {
+      "id": "rice-1",
+      "name": "ထမင်းနှင့်ငရုတ်ကောင်း",
+      "price": 1500,
+      "category": "rice",
+      "icon": "🍚",
+      "description": "လတ်ဆတ်တဲ့ ထမင်းနဲ့ ငရုတ်ကောင်းချက်"
+    },
+    "rice-2": {
+      "id": "rice-2",
+      "name": "ကြက်သွန်ထမင်း",
+      "price": 2000,
+      "category": "rice",
+      "icon": "🍛",
+      "description": "အရသာရှိတဲ့ ကြက်သွန်ထမင်း"
+    },
+    "curry-1": {
+      "id": "curry-1",
+      "name": "အသားဟင်း",
+      "price": 3000,
+      "category": "curry",
+      "icon": "🥩",
+      "description": "အရသာရှိတဲ့ အသားဟင်း"
+    },
+    "curry-2": {
+      "id": "curry-2",
+      "name": "ငါးဟင်း",
+      "price": 2500,
+      "category": "curry",
+      "icon": "🐟",
+      "description": "လတ်ဆတ်တဲ့ ငါးဟင်း"
+    },
+    "snacks-1": {
+      "id": "snacks-1",
+      "name": "ဆမူဆာ",
+      "price": 500,
+      "category": "snacks",
+      "icon": "🥟",
+      "description": "ကြွပ်ကြွပ်ဆမူဆာ"
+    },
+    "snacks-2": {
+      "id": "snacks-2",
+      "name": "မုန့်ပေါင်း",
+      "price": 800,
+      "category": "snacks",
+      "icon": "🍞",
+      "description": "နွေးနွေးမုန့်ပေါင်း"
+    },
+    "snacks-3": {
+      "id": "snacks-3",
+      "name": "အကြွပ်အဖြူ",
+      "price": 1000,
+      "category": "snacks",
+      "icon": "🍪",
+      "description": "အရသာရှိတဲ့ အကြွပ်အဖြူ မုန့်"
+    }
+  },
+  "blog": {
+    "posts": [
+      {
+        "id": "blog-1",
+        "title": "ကျွန်တော်တို့ဆိုင် ဖွင့်လှစ်ခြင်း",
+        "date": "2025-01-15",
+        "excerpt": "မင်္ဂလာပါ။ ကျွန်တော်တို့ဆိုင်သစ် ဖွင့်လှစ်ပါတယ်။ လတ်ဆတ်တဲ့ အစားအစာနဲ့ အနုပညာဆန်တဲ့အချိုပွဲတွေပါ!",
+        "icon": "🎉"
+      },
+      {
+        "id": "blog-2",
+        "title": "မီနူးအသစ်များ ထပ်ထည့်ခြင်း",
+        "date": "2025-02-01",
+        "excerpt": "ဒီအပတ်မှာ မီနူးအသစ်များ ထပ်ထည့်ပေးထားပါတယ်။ ကြက်သားဟင်း၊ ငါးဟင်းနဲ့ မုန့်အသစ်များပါဝင်တယ်။",
+        "icon": "🍽️"
+      },
+      {
+        "id": "blog-3",
+        "title": "ဖောက်သည်များအတွက် အထူးလျှော့ဈေး",
+        "date": "2025-03-01",
+        "excerpt": "ပထမဆုံးအကြိမ် မှာယူသူများအတွက် 10% လျှော့စျေးပေးမယ်။ Telegram မှာ Follow လုပ်ပြီးမှာပါ။",
+        "icon": "💰"
+      }
+    ]
+  },
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "telegram": "@customer1",
+      "address": "ဗိုလ်ချုပ်လမ်း၊ ရန်ကုန်မြို့",
+      "time": "12:00 PM - 1:00 PM",
+      "note": "အေးအေးလေးပဲ ပို့ပါ",
+      "items": [
+        { "id": "rice-1", "name": "ထမင်းနှင့်ငရုတ်ကောင်း", "price": 1500, "quantity": 1, "icon": "🍚" },
+        { "id": "curry-1", "name": "အသားဟင်း", "price": 3000, "quantity": 1, "icon": "🥩" }
+      ],
+      "total": 4500,
+      "date": "2025-10-10T12:00:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "ORD-1002",
+      "telegram": "@customer2",
+      "address": "စံပြလမ်း၊ မန္တလေးမြို့",
+      "time": "1:00 PM - 2:00 PM",
+      "note": "",
+      "items": [
+        { "id": "snacks-1", "name": "ဆမူဆာ", "price": 500, "quantity": 3, "icon": "🥟" },
+        { "id": "snacks-2", "name": "မုန့်ပေါင်း", "price": 800, "quantity": 2, "icon": "🍞" }
+      ],
+      "total": 3100,
+      "date": "2025-10-12T14:30:00Z",
+      "status": "pending"
+    }
+  ],
+  "health": {
+    "status": "ok",
+    "message": "API is running properly"
+  }
+}
